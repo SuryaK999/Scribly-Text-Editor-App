@@ -9,11 +9,21 @@
 </p>
 
 <p align="center">
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://github.com/tomschimanek/customtkinter"><img src="https://img.shields.io/badge/UI-CustomTkinter-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=cyan" alt="CustomTkinter"></a>
-  <a href="https://pygments.org/"><img src="https://img.shields.io/badge/Syntax-Pygments-32CD32?style=for-the-badge&logo=codecademy&logoColor=white" alt="Pygments"></a>
-  <a href="https://github.com/SuryaK999/Scribly-Text-Editor-App"><img src="https://img.shields.io/badge/Platform-Win%20%7C%20Mac%20%7C%20Linux-lightgrey?style=for-the-badge&logo=windows&logoColor=white" alt="Platform"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-F1C40F?style=for-the-badge" alt="License"></a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python_3.8+-3776AB.svg?style=flat-square&logo=python&logoColor=ffdd54" alt="Python 3.8+">
+  </a>&nbsp;
+  <a href="https://github.com/tomschimanek/customtkinter">
+    <img src="https://img.shields.io/badge/CustomTkinter-1a73e8.svg?style=flat-square&logo=tkinter&logoColor=white" alt="CustomTkinter">
+  </a>&nbsp;
+  <a href="https://pygments.org/">
+    <img src="https://img.shields.io/badge/Pygments-8A2BE2.svg?style=flat-square&logo=python&logoColor=white" alt="Pygments">
+  </a>&nbsp;
+  <a href="https://github.com/SuryaK999/Scribly-Text-Editor-App">
+    <img src="https://img.shields.io/badge/Windows%20·%20macOS%20·%20Linux-475569.svg?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHJlY3QgeD0iMiIgeT0iMyIgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiByeD0iMiIgcnk9IjIiPjwvcmVjdD48bGluZSB4MT0iOCIgeTE9IjIxIiB4Mj0iMTYiIHkyPSIyMSI+PC9saW5lPjxsaW5lIHgxPSIxMiIgeTE9IjE3IiB4Mj0iMTIiIHkyPSIyMSI+PC9saW5lPjwvc3ZnPg==&logoColor=white" alt="Platform">
+  </a>&nbsp;
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/MIT_License-f59e0b.svg?style=flat-square" alt="MIT License">
+  </a>
 </p>
 
 ---
