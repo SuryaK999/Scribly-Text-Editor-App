@@ -1,80 +1,134 @@
-# <img src="assets/icon.png" width="48" height="48" valign="middle"> Scribly
+<p align="center">
+  <img src="assets/icon.png" width="120" height="120" alt="Scribly Logo">
+</p>
 
-[![Python Version](https://img.shields.io/badge/Python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-[![GUI Framework](https://img.shields.io/badge/UI-CustomTkinter-darkblue?style=flat-square&logo=visualstudiocode&logoColor=cyan)](https://github.com/tomschimanek/customtkinter)
-[![Pygments Highlighting](https://img.shields.io/badge/Syntax-Pygments-green?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJMMS41IDcuNWwzLjU4IDEuNzlMMi42MyAxMGwxMC4zNyA1LjE4TDIzLjM3IDEwTDIwLjMxIDkuMjlMMjIuNSA3LjVMMTIgMnptMCA1LjhjLTEuMDEgMC0xLjgzLS44Mi0xLjgzLTEuODNTMTAuOTkgNC4xNyAxMiA0LjE3czEuODMuODIgMS44MyAxLjgzcy0uODIgMS44My0xLjgzIDEuODN6bTAgNC42Yy0xLjI0IDAtMi4yNS0xLjAxLTIuMjUtMi4yNVMxMC43NiAxMC4xMiAxMiAxMC4xMnMyLjI1IDEuMDEgMi4yNSAyLjI1cy0xLjAxIDIuMjUtMi4yNSAyLjI1eiIvPjwvc3ZnPg==&logoColor=white)](https://pygments.org/)
-[![OS Support](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey?style=flat-square)](https://github.com/SuryaK999/Scribly-Text-Editor-App)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+<h1 align="center">Scribly</h1>
 
-Scribly is a distraction-free, minimalist, yet feature-rich desktop text editor built with Python and CustomTkinter. It resembles native modern OS editors (like Linux Gedit or Windows Notepad) while integrating professional developer utilities such as real-time syntax highlighting, custom theme designs, and bracket matching.
+<p align="center">
+  <em>A distraction-free, feature-rich desktop text editor built with Python & CustomTkinter</em>
+</p>
 
----
-
-## 🚀 Key Features
-
-* 🎨 **Unified Flat Theme Engine**: Blends the toolbar into the document canvas with seamless 1-pixel separators. Includes 6 built-in presets (One Dark, Monokai, Cyberpunk, Solarized Light/Dark, Github Light) and a custom theme builder.
-* ✍️ **Syntax Highlighting**: Real-time syntax styling using **Pygments** (supports Python, Markdown, HTML, CSS, JavaScript, JSON, etc.) debounced at 100ms to eliminate typing latency.
-* 🔢 **Smart Line Numbers**: Column-synced sidebar that dynamically scales width to line digits and handles wrapped line alignments flawlessly. Highlights the active line number.
-* ⚙️ **Custom Theme Creator Dialog**: Visual designer (`+ Custom Theme`) allowing real-time OS color picking for background, text, cursor, selections, and syntax highlight categories, exporting configurations directly as JSON.
-* ⚡ **Developer Conveniences**:
-  * **Auto-closing pairs** for brackets `() {} []` and quotes `"" ''`.
-  * **Smart backspace** deleting adjacent closing brackets.
-  * **Bracket matching** depth-scans and highlights matching pairs under the cursor.
-  * **Auto-indentation** matching previous indentation levels and indenting automatically after code-block entries (e.g., lines ending in `:`).
-* 🔍 **Find & Replace panel**: Slides in from the bottom with match counters (`X of Y`), case-sensitive filtering, whole-word matching, regular expression queries, and bulk reverse-order "Replace All".
-* 📂 **Workspace Explorer Sidebar**: Collapsible file tree that allows you to double-click and open files, optimized with directory lazy-loading.
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://github.com/tomschimanek/customtkinter"><img src="https://img.shields.io/badge/UI-CustomTkinter-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=cyan" alt="CustomTkinter"></a>
+  <a href="https://pygments.org/"><img src="https://img.shields.io/badge/Syntax-Pygments-32CD32?style=for-the-badge&logo=codecademy&logoColor=white" alt="Pygments"></a>
+  <a href="https://github.com/SuryaK999/Scribly-Text-Editor-App"><img src="https://img.shields.io/badge/Platform-Win%20%7C%20Mac%20%7C%20Linux-lightgrey?style=for-the-badge&logo=windows&logoColor=white" alt="Platform"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-F1C40F?style=for-the-badge" alt="License"></a>
+</p>
 
 ---
 
-## 🖼️ Image Showcase
+Scribly resembles native modern OS editors (like **Linux Gedit** or **Windows Notepad**) while integrating professional developer utilities — real-time syntax highlighting, a visual custom theme builder, intelligent bracket matching, and a collapsible workspace sidebar.
 
-Add screenshots to the `docs/screenshots/` folder to populate these visuals on GitHub:
+---
 
-| 🖥️ Main Workspace (Zen Mode) | 🎨 Visual Theme Customizer |
-| :---: | :---: |
-| <img src="assets/icon.png" width="220" alt="Main Editor Preview"><br>_Placeholder: Add `docs/screenshots/editor_preview.png` here_ | <img src="assets/icon.png" width="220" alt="Theme Creator Dialog"><br>_Placeholder: Add `docs/screenshots/theme_creator.png` here_ |
+## ✨ Features
 
-| 🔍 Advanced Find & Replace Panel | 📁 Workspace Explorer Sidebar |
-| :---: | :---: |
-| <img src="assets/icon.png" width="220" alt="Find Replace Preview"><br>_Placeholder: Add `docs/screenshots/search_preview.png` here_ | <img src="assets/icon.png" width="220" alt="Workspace Tree Sidebar"><br>_Placeholder: Add `docs/screenshots/sidebar_preview.png` here_ |
+<table>
+  <tr>
+    <td width="50%">
+
+### 🎨 Unified Theme Engine
+Blends toolbar, editor, and sidebar into one seamless canvas with 1-pixel separators. Ships with **6 built-in presets**:
+- One Dark
+- Monokai
+- Cyberpunk
+- Solarized Light / Dark
+- Github Light
+
+Plus a **visual Custom Theme Creator** (`+ Custom Theme` button) with real-time OS color picking — export directly as JSON.
+
+</td>
+    <td width="50%">
+
+### ✍️ Syntax Highlighting
+Real-time token-level styling powered by **Pygments**, debounced at 100ms for zero typing lag.
+
+**Supported languages include:**
+`Python` · `JavaScript` · `HTML` · `CSS` · `Markdown` · `JSON` · and many more auto-detected by file extension.
+
+</td>
+  </tr>
+  <tr>
+    <td>
+
+### ⚡ Developer Conveniences
+- **Auto-closing pairs** — `() {} [] "" ''`
+- **Smart backspace** — deletes adjacent closing bracket
+- **Bracket matching** — depth-scans & highlights matching pair under cursor
+- **Auto-indentation** — matches previous indent, auto-indents after `:`
+
+</td>
+    <td>
+
+### 🔍 Find & Replace
+Slides in from the bottom with:
+- Live match counter (`X of Y`)
+- Case-sensitive toggle
+- Whole-word matching
+- **Regular expression** queries
+- Bulk reverse-order **Replace All**
+
+</td>
+  </tr>
+  <tr>
+    <td>
+
+### 📂 Workspace Explorer
+Collapsible sidebar with a lazy-loading directory tree. Double-click any file to open it directly in the editor. Toggle with **Ctrl+B**.
+
+</td>
+    <td>
+
+### 🔢 Smart Line Numbers
+Column-synced sidebar that dynamically scales width, handles wrapped-line alignment, and highlights the active line number.
+
+</td>
+  </tr>
+</table>
 
 ---
 
 ## 🛠️ Installation
 
-### 1. Prerequisites
-Ensure you have **Python 3.8+** installed.
+### Prerequisites
 
-### 2. Clone the Repository
+- **Python 3.8** or higher — [Download Python](https://www.python.org/downloads/)
+
+### Quick Start
+
 ```bash
+# 1. Clone the repository
 git clone https://github.com/SuryaK999/Scribly-Text-Editor-App.git
 cd Scribly-Text-Editor-App
-```
 
-### 3. Set Up Virtual Environment
-```bash
+# 2. Create & activate virtual environment
 python -m venv .venv
-# On Windows (PowerShell)
-.venv\Scripts\Activate.ps1
-# On Windows (cmd)
-.venv\Scripts\activate.bat
-# On macOS / Linux
-source .venv/bin/activate
-```
 
-### 4. Install Dependencies
-```bash
+# Windows (PowerShell)
+.venv\Scripts\Activate.ps1
+# Windows (cmd)
+.venv\Scripts\activate.bat
+# macOS / Linux
+source .venv/bin/activate
+
+# 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Launch Scribly
+python main.py
 ```
 
 ---
 
-## 🏃 Running the Application
+## 📦 Dependencies
 
-Launch the editor with Python:
-```bash
-python main.py
-```
+| Package | Version | Purpose |
+| :--- | :--- | :--- |
+| [customtkinter](https://github.com/tomschimanek/customtkinter) | `≥ 5.2.0` | Modern, themeable GUI framework |
+| [Pygments](https://pygments.org/) | `≥ 2.15.0` | Syntax highlighting engine |
+| [darkdetect](https://github.com/albertosottile/darkdetect) | `≥ 0.8.0` | OS dark/light mode detection |
+| [Pillow](https://python-pillow.org/) | `≥ 9.5.0` | Icon loading & multi-resolution scaling |
 
 ---
 
@@ -82,42 +136,82 @@ python main.py
 
 | Shortcut | Action |
 | :--- | :--- |
-| `Ctrl + N` | Create a New File |
-| `Ctrl + O` | Open a File |
-| `Ctrl + S` | Save the Current File |
-| `Ctrl + Shift + S` | Save File As |
-| `Ctrl + F` | Toggle Find & Replace Panel |
+| `Ctrl + N` | New File |
+| `Ctrl + O` | Open File |
+| `Ctrl + S` | Save |
+| `Ctrl + Shift + S` | Save As |
+| `Ctrl + F` | Toggle Find & Replace |
 | `Ctrl + B` | Toggle Workspace Sidebar |
 | `Ctrl + Z` | Undo |
 | `Ctrl + Y` | Redo |
-| `Ctrl + Plus / Minus` | Zoom Font In / Out |
+| `Ctrl + X / C / V` | Cut / Copy / Paste |
+| `Ctrl + +` / `Ctrl + -` | Zoom In / Out |
 | `Ctrl + MouseWheel` | Dynamic Font Zoom |
 | `Ctrl + W` / `Ctrl + Q` | Exit Application |
 
 ---
 
-## 📁 File Structure
+## 🗂️ Project Structure
 
-```text
-Scribly/
-├── assets/
-│   ├── icon.png        # Cross-platform high-resolution icon
-│   ├── icon.ico        # Multi-resolution Windows application icon
-│   └── icon.icns       # Multi-resolution macOS bundle icon
-├── components/
-│   ├── editor_area.py  # Code editor viewport & bindings
-│   ├── file_tree.py    # Lazy-loading directory tree widget
-│   ├── find_replace.py # Floating find/replace query panel
-│   ├── line_numbers.py # Canvas-drawn dynamic scroll-synced line indices
-│   ├── status_bar.py   # Position and document statistic bar
-│   └── theme_dialog.py # Custom theme creator modal
-├── main.py             # App entrance & layout manager
-├── theme_manager.py    # Theme loader database & Pygments style mapping
-├── requirements.txt    # Library dependencies
-└── .gitignore          # Files excluded from VCS tracking
+```
+Scribly-Text-Editor-App/
+│
+├── 📁 assets/
+│   ├── icon.png             # High-resolution app icon (cross-platform)
+│   ├── icon.ico             # Windows taskbar & title bar icon
+│   └── icon.icns            # macOS bundle icon
+│
+├── 📁 components/
+│   ├── editor_area.py       # Code editor widget, syntax highlighting, auto-pairs
+│   ├── file_tree.py         # Lazy-loading workspace directory tree
+│   ├── find_replace.py      # Slide-in find & replace panel
+│   ├── line_numbers.py      # Scroll-synced line number sidebar
+│   ├── status_bar.py        # Cursor position & document stats bar
+│   └── theme_dialog.py      # Visual custom theme creator modal
+│
+├── main.py                  # Application entry point & layout manager
+├── theme_manager.py         # Theme registry, loader & Pygments style mapping
+├── requirements.txt         # Python package dependencies
+├── .gitignore               # Git exclusion rules
+└── README.md                # This file
 ```
 
 ---
 
+## 🖥️ Menu System
+
+Scribly provides a standard OS-native menu bar:
+
+| Menu | Options |
+| :--- | :--- |
+| **File** | New File · Open File · Open Workspace Folder · Save · Save As · Exit |
+| **Edit** | Undo · Redo · Cut · Copy · Paste · Find / Replace |
+| **View** | Toggle Workspace Sidebar · Zoom In · Zoom Out |
+
+---
+
+## 🎯 Highlights
+
+<div align="center">
+
+| Feature | Details |
+| :---: | :--- |
+| 🪟 **Cross-Platform Icons** | Multi-resolution icons (16×16 → 256×256) for crisp rendering on all DPIs |
+| 🧩 **Windows Taskbar Grouping** | Custom `AppUserModelID` for proper taskbar icon grouping |
+| 💾 **Unsaved Changes Guard** | Prompts to save before closing, opening, or creating new files |
+| 🔄 **Live Theme Switching** | Instantly swaps all UI layers — toolbar, editor, sidebar, menus, status bar |
+| 📐 **Responsive Layout** | Min size 600×400, default 950×600 with resizable panels |
+
+</div>
+
+---
+
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <sub>Built with ❤️ using Python & CustomTkinter</sub>
+</p>
