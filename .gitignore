@@ -1,0 +1,36 @@
+# ═══ Python / Byte-compiled files ═══
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ═══ Virtual Environments ═══
+.venv/
+venv/
+env/
+ENV/
+*.venv/
+
+# ═══ User Configs & Logs ═══
+*.log
+custom_themes/*.json
+!custom_themes/.gitkeep
+
+# ═══ IDE Workspace Files ═══
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*~
+
+# ═══ OS Metadata ═══
+.DS_Store
+Thumbs.db
+
+# ═══ Packaging / Distribution ═══
+build/
+dist/
+*.egg-info/
