@@ -32,6 +32,37 @@ Scribly resembles native modern OS editors (like **Linux Gedit** or **Windows No
 
 ---
 
+## 🖼️ Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/editor_main.png" alt="Main Editor" width="100%">
+      <br><strong>🖥️ Main Workspace</strong>
+      <br><sub>Syntax-highlighted editing with smart line numbers</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/theme_creator.png" alt="Theme Creator" width="100%">
+      <br><strong>🎨 Custom Theme Creator</strong>
+      <br><sub>Visual color picker for every UI element</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/find_replace.png" alt="Find and Replace" width="100%">
+      <br><strong>🔍 Find & Replace</strong>
+      <br><sub>Regex support, match counter, and bulk replace</sub>
+    </td>
+    <td align="center">
+      <img src="docs/screenshots/workspace_sidebar.png" alt="Workspace Sidebar" width="100%">
+      <br><strong>📂 Workspace Explorer</strong>
+      <br><sub>Lazy-loading file tree with double-click to open</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## ✨ Features
 
 <table>
@@ -178,6 +209,12 @@ Scribly-Text-Editor-App/
 │   ├── line_numbers.py      # Scroll-synced line number sidebar
 │   ├── status_bar.py        # Cursor position & document stats bar
 │   └── theme_dialog.py      # Visual custom theme creator modal
+│
+├── 📁 docs/screenshots/
+│   ├── editor_main.png      # Main workspace screenshot
+│   ├── theme_creator.png    # Theme creator dialog screenshot
+│   ├── find_replace.png     # Find & replace panel screenshot
+│   └── workspace_sidebar.png # Sidebar file tree screenshot
 │
 ├── main.py                  # Application entry point & layout manager
 ├── theme_manager.py         # Theme registry, loader & Pygments style mapping
